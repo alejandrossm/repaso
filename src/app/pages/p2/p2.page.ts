@@ -10,10 +10,17 @@ export class P2Page implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log("Este es el on init");
   }
 
   onClick(){
     console.log("Hola mundo!!!!");
+  }
+
+  otroevento()
+  {
+    let fecha=new Date()
+    console.log(fecha);
   }
 
 }
